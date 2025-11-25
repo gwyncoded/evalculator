@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Calculator</title>
+	<link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="master-div">
+      <div id="pseudo-border">
+        <div id="calculator">
+          <div id="display"></div>
+          <div class="row" id="row-1">
+            <button onclick="allClear()" class="button wide-button" id="clear">AC</button>
+            <button onclick="createFormula('/')" class="button operator" id="divide">/</button>
+            <button onclick="createFormula('*')" class="button operator" id="multiply">x</button>
+          </div>
+          <div class="row" id="row-2">
+            <button onclick="createFormula('7')" class="button number" id="seven">7</button>
+            <button onclick="createFormula('8')" class="button number" id="eight">8</button>
+            <button onclick="createFormula('9')" class="button number" id="nine">9</button>
+            <button onclick="createFormula('-')" class="button operator" id="subtract">-</button>
+          </div>
+          <div class="row" id="row-3">
+            <button onclick="createFormula('4')" class="button number" id="four">4</button>
+            <button onclick="createFormula('5')" class="button number" id="five">5</button>
+            <button onclick="createFormula('6')" class="button number" id="six">6</button>
+            <button onclick="createFormula('+')" class="button operator" id="add">+</button>
+          </div>
+          <div class="row" id="row-4">
+            <button onclick="createFormula('1')" class="button number" id="one">1</button>
+            <button onclick="createFormula('2')" class="button number" id="two">2</button>
+            <button onclick="createFormula('3')" class="button number" id="three">3</button>
+            <button onclick="calculate()" class="button operator tall-button" id="equals">=</button>
+          </div>
+          <div class="row" id="row-5">
+            <button onclick="createFormula('0')" class="button number wide-button" id="zero">0</button>
+            <button onclick="createFormula('.')" class="button number" id="decimal">.</button>
+          </div>
+        </div><!--calculator-->
+      </div><!--pseudo-border-->
+    </div><!--master div-->
+	<script src="scripts.js"></script>
+  </body>
+</html>
