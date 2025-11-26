@@ -88,7 +88,7 @@ html, body {
   margin: 0;
   height: 60px;
   font-size: 20px;
-  /*okay this is the voodoo section of my css. i have no idea what the gap between my buttons is if it's not margin, padding or border. only setting margin-right to -5px gets rid of the gap. and the only way to have thin borders is to do just the bottom and the right. i wouldn't have to do any of this nonsense if i could just get rid of the mystery gap. i might try to fix it later. i don't know. i'm tired. also i think the right causes shenanigins for the rightmost button.*/
+  /*okay this is the voodoo section of my css. i have no idea what the gap between my buttons is if it's not margin, padding or border. only setting margin-right to -5px gets rid of the gap. and the only way to have thin borders is to do just the bottom and the right. i wouldn't have to do any of this nonsense if i could just get rid of the mystery gap. i might try to fix it later. also i think the right causes shenanigins for the rightmost button.*/
   margin-right: -5px;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
@@ -132,4 +132,5 @@ html, body {
 
 .operator {
   background-color: #444;
+
 }
